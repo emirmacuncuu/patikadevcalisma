@@ -1,0 +1,20 @@
+Merge Sort
+Proje 2
+
+[16,21,11,8,12,22]
+Soru1 :Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Soru2 : Big-O gösterimini yazınız.
+
+Soru 1 Cevap :
+
+[16,21,11,8,12,22]
+
+[16,21,11][8,12,22]
+
+[16][21,11][8][12,22]
+[16] [21] [11] [8] [12] [22]
+[16,21][11][8,12] [22]
+[11,16,21] [8,12,22]
+[8,11,12,16,21,22]
+
+Yarılanarak gittiği için n->n/2 ... vs n kadar işlem vardır 2^x=n n=logn logn*O(n)= O(nlogn)
