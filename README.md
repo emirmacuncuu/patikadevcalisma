@@ -1,0 +1,2 @@
+# patikadevcalisma
+patika dev ödev
